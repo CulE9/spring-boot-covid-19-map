@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/covid19")
+@RequestMapping
 public class MapController {
 
     private final DataParser dataParser;
@@ -16,7 +16,7 @@ public class MapController {
         this.dataParser = dataParser;
     }
 
-    @GetMapping("/map")
+    @GetMapping
     public String getMap(Model model) {
         model.addAttribute("points", dataParser.getCovidDataPoints());
         return "map";

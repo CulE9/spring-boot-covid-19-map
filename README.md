@@ -15,11 +15,10 @@ https://github.com/CSSEGISandData/COVID-19
 * [OpenStreetMap](https://www.openstreetmap.org/)
 
 ### Launch
-Run application and go to endpoint: **/covid19/map**.
-For example: http://localhost:8080/covid19/map
+Run application locally and open the URL (default): http://localhost:8080
 
 Live use with [heroku](https://www.heroku.com/) (first run may take a while):
-https://spring-boot-covid19-map.herokuapp.com/covid19/map
+https://spring-boot-covid19-map.herokuapp.com
 
 ### Preview
 ![https://i.postimg.cc/3JNLzxcV/spring-boot-covid19-map-screenshot.jpg](https://i.postimg.cc/3JNLzxcV/spring-boot-covid19-map-screenshot.jpg)
